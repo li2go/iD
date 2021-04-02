@@ -9,7 +9,7 @@ import { geoExtent, geoScaleToZoom } from '../geo';
 import { utilArrayUnion, utilQsString, utilRebind, utilSetTransform, utilStringQs, utilTiler } from '../util';
 
 
-var apibase = 'https://openstreetcam.org';
+var apibase = 'https://api.openstreetcam.org';
 var maxResults = 1000;
 var tileZoom = 14;
 var tiler = utilTiler().zoomExtent([tileZoom, tileZoom]).skipNullIsland(true);
